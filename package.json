@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "author": "guangzan <wang.guangzan2@iwhalecloud.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "umi": "^4.4.11"
+  },
+  "devDependencies": {
+    "@kmijs/preset-bundler": "^0.0.6",
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "typescript": "^5.0.3"
+  }
+}
