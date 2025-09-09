@@ -4,5 +4,6 @@ export default defineConfig({
   npmClient: 'pnpm',
   mfsu: false,
   presets: ['@kmijs/preset-bundler'],
-  rspack: {}
+  rspack: {},
+  caseSensitivePaths: true,
 });
