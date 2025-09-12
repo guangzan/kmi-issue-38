@@ -6,4 +6,9 @@ export default defineConfig({
   presets: ['@kmijs/preset-bundler'],
   rspack: {},
   caseSensitivePaths: true,
+  bundler: {
+    experiments: {
+      nativeWatcher: false,
+    },
+  },
 });
